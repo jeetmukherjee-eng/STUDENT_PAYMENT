@@ -1,0 +1,47 @@
+/* styles.css */
+/* Right panel background (main content area) */
+/* Override dark mode background */
+html, body, [data-testid="stAppViewContainer"] > .main {
+    background-color: #f0fff0 !important;
+    color: #000000 !important;
+}
+
+
+
+body {
+    background-color: #aafc77;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+button[kind="primary"] {
+    background-color: #351869 !important;
+    color: rgb(81, 164, 228) !important;
+    border-radius: 6px;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #051057;
+}
+
+.stAlert-success {
+    background-color: #f9b49b;
+    color: #006633;
+}
+
+.stAlert-warning {
+    background-color: #ebc13a;
+    color: #996600;
+}
+
+thead tr th {
+    background-color: #5e93e3 !important;
+    color: #eef1f5 !important;
+}
+
+.css-1v0mbdj {
+    margin-bottom: 2px;
+}
